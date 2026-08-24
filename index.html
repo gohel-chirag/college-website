@@ -3,32 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Geetanjali College</title>
+    <title>Geetanjali College | Home</title>
 </head>
 <body>
 
     <!-- Header -->
     <header>
-        <navbar>
-            <div class="heading">
-                <h1 align="center">Geetanjali College</h1>
-                <h3 align="center">Learn • Innovate • Grow</h3>
-            </div><hr>
-            <div class="navigations" align="center">
-                <a href="index.html">Home</a>&nbsp;
-                <a href="about.html">About</a>&nbsp;
-                <a href="courses.html">Courses</a>&nbsp;
-                <a href="faculty.html">Faculty</a>&nbsp;
-                <a href="facilities.html">Facilities</a>&nbsp;
-                <a href="timetable.html">Timetable</a>&nbsp;
-                <a href="admission.html">Admission</a>&nbsp;
-                <a href="contact.html">Contact</a>
-            </div><hr>
-        </navbar>
+        <div class="heading">
+            <h1 align="center">Geetanjali College</h1>
+            <h3 align="center">Learn • Innovate • Grow</h3>
+        </div><hr>
     </header>
 
 
-    <!-- Main -->
+    <!-- Navbar -->
+    <nav>
+        <div class="navigations" align="center">
+            <a href="index.html">Home</a>&nbsp;
+            <a href="about.html">About</a>&nbsp;
+            <a href="courses.html">Courses</a>&nbsp;
+            <a href="faculty.html">Faculty</a>&nbsp;
+            <a href="facilities.html">Facilities</a>&nbsp;
+            <a href="timetable.html">Timetable</a>&nbsp;
+            <a href="admission.html">Admission</a>&nbsp;
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav><hr>
+
+
+    <!-- Main content-->
     <main>
         <!-- Hero Section -->
         <section id="hero-section">
@@ -52,18 +55,18 @@
             <div class="button" align="center">
                 <a href="about.html">Read More...</a>
             </div>
-        </section>
+        </section><hr>
 
         <!-- Courses Preview -->
         <section id="courses-preview">
             <div class="courses" align="center">
-                <h3>Courses</h3>
-                <table border="1" text-align="center">
+                <h2>Courses</h2>
+                <table border="1" text-align="center" cellspacing="0" cellpadding="10">
                     <thead>
                         <th>Course</th>
                         <th>Duration</th>
                     </thead>
-                    <tbody>
+                    <tbody align="center">
                         <tr>
                             <td>BCA</td>                            
                             <td>3 Years</td>                            
@@ -85,9 +88,40 @@
                             <td>2 Years</td>                            
                         </tr>
                     </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="2" align="center"><a href="courses.html">View All Courses</a></td>
+                        </tr>
+                    </tfoot>
                 </table>
             </div>
-        </section>
+        </section><hr>
+
+
+        <!-- Facilities Preview -->
+        <section id="facilities">
+            <div class="facilities">
+                <h2>Facilities</h2>
+                <ul>
+                    <li>Computer Lab</li>
+                    <li>Library</li>
+                    <li>Digital Classroom</li>
+                    <li>Online Attendance</li>
+                </ul>
+            </div>
+        </section><hr>
     </main>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer" align="center">
+            <p align="center">
+                <strong>Geetanjali Group Of College</strong><br>
+                Learn • Innovate • Grow<br>
+                &copy;2026 Geetanjali Group Of College
+            </p>
+        </div>
+    </footer>
 </body>
 </html>
